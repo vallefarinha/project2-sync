@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sync</title>
+  <link rel="stylesheet" href="../public/css/main.css">
+  <link rel="stylesheet" href="../public/css/header.css">
+  <link rel="stylesheet" href="../public/css/custom.css">
+  <link rel="stylesheet" href="../public/css/text.css">
+  <link rel="stylesheet" href="../public/css/colors.css">
+  <link rel="stylesheet" href="../public/css/animations.css">
+  <link rel="stylesheet" href="../public/css/buttons.css">
+  <link rel="stylesheet" href="../public/css/icons.css">
+  <link rel="stylesheet" href="../public/css/footer.css">
+  <link rel="stylesheet" href="../public/css/mediaqueries.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../src/sass/custom.scss">
+</head>
+
+<body>
+
+  
+  <header class="d-flex flex-column align-items-center">
+
+
+    <nav class="navbar navbar-expand-lg fixed-top bg-main-color">
+      <div class="logo container-fluid">
+        <a class="navbar-brand" href="#top">
+          <img src="../src/assets/logo/logo.svg" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#description">DESCRIPTION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">FEATURES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#screens">SCREENS</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                EXTRA
+              </a>
+              <ul class="dropdown-menu bg-main-color p-0 border-0" aria-labelledby="navbarDropdown">
+                <li class="bg-main-color"><a class="dropdown-item" href="#">SERVIÇO</a></li>
+                <li class="bg-main-color"><a class="dropdown-item" href="#">SERVIÇO</a></li>
+                <li class="bg-main-color"><a class="dropdown-item" href="#">SERVIÇO</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="https://factoriaf5.org/">
+                <button type="button" class="rounded-pill btn-download fw-bold">DOWNLOAD</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="container-figures d-flex container-fluid justify-content-between mx-4" id="top">
+      <img src="../src/assets/figures/decorative-green-diamond.svg" alt="Logo" width="16" max-height="16">
+      <img src="../src/assets/figures/decorative-yellow-circle.svg" alt="Logo" width="16" max-height="16">
+    </div>
+  
+    <div class="d-flex justify-content-center text-center">
+      <div>
+        <h1 class="display-1">Mobile App Landing Page</h1>
+        <p class="fs-4">
+          In Bootstrap 3, a jumbotron was introduced as a large, padded box for highlighting special content or information. Now, jumbotrons does not supported by Bootstrap 5 version. We can achieve the same result with an element, special helper classes, and a color class.
+        </p>
+      </div>
+    </div>
+  
+    <div class="container d-flex flex-wrap gap-4 justify-content-center align-items-center lg:flex-row">
+      <a href="https://factoriaf5.org/">
+        <button class="btn rounded-pill btn-download-filled bg-danger text-white fw-bold z-index-20" type="button">
+          <i class="fa-brands fa-apple" style="color: #ffffff;"></i> DOWNLOAD
+        </button>
+      </a>
+      <a href="https://factoriaf5.org/">
+        <button class="btn rounded-pill btn-download-filled bg-danger text-white fw-bold bg-gradient z-index-20" type="button">
+          <i class="fa-brands fa-google-play" style="color: #ffffff;"></i> DOWNLOAD
+        </button>
+      </a>
+    </div>
+  
+    <div class="container-fluid d-flex p-0 justify-content-between">
+      <div class="containe container-white-circle-left">
+        <img src="../src/assets/figures/decorative-blue-circle.svg" class="blue-circle">
+      </div>
+      <div class="container-img-phone">
+        <img src="../src/assets/img/header-iphone.png" class="hithere">
+      </div>
+      <div class="container-white-circle-right">
+        <img src="../src/assets/img/decorative-half-white-circle-right.png" class="white-circle">
+      </div>
+    </div>
+  
+    <div class="container-icons d-flex flex-wrap justify-content-center gap-4 mt-5">
+      <div class="d-flex flex-column justify-content-center align-items-center ">
+        <div class="d-flex content-fa-size-bg rounded-circle justify-content-center align-items-center bg-light-purple">
+          <i class="fa-solid fa-users fa-2x" style="color: #ac84f0;"></i>
+        </div>
+        <h4 class="mt-4 fw-bold">Identify Goals</h4>
+      </div>
+      <div class="d-flex flex-column justify-content-center align-items-center ">
+        <div class="d-flex content-fa-size-bg rounded-circle justify-content-center align-items-center  bg-light-green">
+          <i class="fa-sharp fa-solid fa-code fa-2x" style="color: #18c389;"></i>
+        </div>
+        <h4 class="mt-4 fw-bold">Situation Analysis</h4>
+      </div>
+      <div class="d-flex flex-column justify-content-center align-items-center ">
+        <div class="d-flex content-fa-size-bg rounded-circle justify-content-center align-items-center  bg-light-red">
+          <i class="fa-solid fa-gear fa-2x" style="color: #ff4b63;"></i>
+        </div>
+        <h4 class="mt-4 fw-bold">Task Settings</h4>
+      </div>
+      <div class="d-flex flex-column justify-content-center align-items-center ">
+        <div class="d-flex content-fa-size-bg rounded-circle justify-content-center align-items-center  bg-light-yellow">
+          <i class="fa-solid fa-comments fa-2x" style="color: #ffaa11;"></i>
+        </div>
+        <h4 class="mt-4 fw-bold">Social Interaction</h4>
+      </div>
+      <div class="d-flex flex-column justify-content-center align-items-center ">
+        <div class="d-flex content-fa-size-bg rounded-circle justify-content-center align-items-center  bg-light-blue">
+          <i class="fa-solid fa-rocket fa-2x" style="color: #46b0e5;"></i>
+        </div>
+        <h4 class="mt-4 fw-bold">Get Things Done</h4>
+      </div>
+    </div>
+  </header>
+  
+
+  <main>
+
+
+    <section id="description mt-4">
+
+<div class="container d-flex flex-wrap align-items-center my-2 justify-content-center flex-lg-nowrap">
+
+  <div class="container p-2 mt-4 d-flex justify-content-center">
+    <img src="../src/assets/img/description-1-app.png" class="w-100 mt-4 description-img-skate">
+  </div>
+
+  <div class="container p-2 mt-4">
+    <h2 class="display-5 fw-bold">Organize Your Time And Start Getting Results</h2>
+    <p class="fs-6 fw-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae tempore numquam
+      laboriosam harum cumque
+      odit hic, vel praesentium totam pariatur?</p>
+    <ul class="list-group-style p-4">
+      <li class="list-groupfs-6 fw-semibold">An item</li>
+      <li class="fs-6 fw-semibold">A second item</li>
+      <li class="fs-6 fw-semibold">A third item</li>
+      <li class="fs-6 fw-semibold">A fourth item</li>
+      <li class="fs-6 fw-semibold">And a fifth one</li>
+    </ul>
+    <div class="container-fluid d-flex justify-content-center">
+      <a href="https://factoriaf5.org/"><button class="btn btn-danger rounded-pill fw-bold fs-5 bg-gradient"
+          type="button">LIGHTBOX</button></a>
+    </div>
+  </div>
+
+</div>
+
+        <div class="container d-flex flex-wrap align-items-center my-4 bg-blue flex-lg-nowrap">    
+          
+          <div class="container">
+          
+        <div class="d-flex flex-wrap w-75 my-4 gap-2">
+          <a href="https://factoriaf5.org/"><button class="btn-description fs-5 fw-bold bg-gradient"
+              type="button"><i class="fa-regular fa-clock p-2"
+                style="color: #747475;"></i></i>Schedule</button></a>
+          <a href="https://factoriaf5.org/"><button class="btn-description fs-5 fw-bold bg-gradient"
+              type="button"><i class="fa-solid fa-list p-2" style="color: #747475;"></i>Tracking</button></a>
+          <a href="https://factoriaf5.org/"><button class="btn-description fs-5 fw-bold bg-gradient"
+              type="button"><i class="fa-solid fa-calendar-days p-2" style="color: #747475;"></i>Organize</button>
+            <a href="https://factoriaf5.org/"></a>
+        </div>
+
+            <div class="container">             
+
+              <div class="description-container-text">
+                <p class="fs-6 fw-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae tempore
+                  numquam laboriosam harum
+                  cumque
+                  odit hic, vel praesentium totam pariatur?</p>
+                <ul class="list-group-style list-unstyled">
+                  <li class="fs-6 fw-semibold"><i class="fa-regular fa-square-check me-2" style="color: #18c389;"></i>An item
+                  </li>
+                  <li class="fs-6 fw-semibold"><i class="fa-regular fa-square-check me-2" style="color: #18c389;"></i>A
+                    second item</li>
+                  <li class="fs-6 fw-semibold"><i class="fa-regular fa-square-check me-2" style="color: #18c389;"></i>A third
+                    item</li>
+                  <li class="fs-6 fw-semibold"><i class="fa-regular fa-square-check me-2" style="color: #18c389;"></i>A
+                    fourth item</li>
+                  <li class="fs-6 fw-semibold"><i class="fa-regular fa-square-check me-2" style="color: #18c389;"></i>And a
+                    fifth one</li>
+                </ul>
+                <div class="d-flex gap-2">
+                  <a href="https://factoriaf5.org/"><button
+                      class="btn btn-danger rounded-pill fw-bold fs-5 bg-gradient"
+                      type="button">TERMS</button></a>
+                  <a href="https://factoriaf5.org/"><button
+                      class="btn btn-outline-dark rounded-pill fw-bold fs-5 bg-gradient"
+                      type="button">PRIVACY</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <div class="container d-flex justify-content-center">
+              <img src="../src/assets/img/description-2-app.png" class="description-container-img-calendar p-4">
+            </div>
+          </div>
+      
+  
+    </section>
+
+
+    <section id="review">
+
+      <div class="d-flex flex-column align-items-center">
+
+        <div class="container d-flex flex-wrap justify-content-center my-4 gap-5 text-center flex-lg-row flex-lg-nowrap">
+
+          <div class="container d-flex flex-column justify-content-center text-center review-card">
+            <div class="container-card-header">
+              <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+              <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+              <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+              <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+              <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+            </div>
+            <div class="my-5">
+              <p class="fs-4 fst-italic"> Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <h5 class="container-card-name fw-bold fs-3">Light card title</h5>
+            </div>
+          </div>
+          <div class="container d-flex flex-column justify-content-center text-center review-card">
+            <div class="container-card-header">
+              <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+              <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+              <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+              <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+              <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+            </div>
+            <div class="my-5">
+              <p class="fs-4 fst-italic"> Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <h5 class="container-card-name fw-bold fs-3">Light card title</h5>
+            </div>
+          </div>
+          <div class="container d-flex flex-column justify-content-center text-center review-card">
+            <div class="container-card-header">
+              <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+              <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+              <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+              <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+              <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+            </div>
+            <div class="my-5">
+              <p class="fs-4 fst-italic"> Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <h5 class="container-card-name fw-bold fs-3">Light card title</h5>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="">
+          <div class="container-fluid d-flex flex-wrap justify-content-center gap-4 p-4 bg-white">
+            <div class="text-center container-logo-img">
+              <img src="../src/assets/logo/customer-logo-1.png">
+            </div>
+            <div class="text-center container-logo-img">
+              <img src="../src/assets/logo/customer-logo-2.png">
+            </div>
+            <div class="text-center container-logo-img">
+              <img src="../src/assets/logo/customer-logo-3.png">
+            </div>
+            <div class="text-center container-logo-img">
+              <img src="../src/assets/logo/customer-logo-4.png">
+            </div>
+            <div class="text-center container-logo-img">
+              <img src="../src/assets/logo/customer-logo-5.png">
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column align-items-center">
+
+          <div class="container d-flex flex-wrap justify-content-center my-4 gap-5 text-center flex-lg-row flex-lg-nowrap">
+  
+            <div class="container d-flex flex-column justify-content-center text-center review-card">
+              <div class="container-card-header">
+                <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+                <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+                <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+                <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+                <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+              </div>
+              <div class="my-5">
+                <p class="fs-4 fst-italic"> Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <h5 class="container-card-name fw-bold fs-3">Light card title</h5>
+              </div>
+            </div>
+            <div class="container d-flex flex-column justify-content-center text-center review-card">
+              <div class="container-card-header">
+                <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+                <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+                <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+                <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+                <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+              </div>
+              <div class="my-5">
+                <p class="fs-4 fst-italic"> Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <h5 class="container-card-name fw-bold fs-3">Light card title</h5>
+              </div>
+            </div>
+            <div class="container d-flex flex-column justify-content-center text-center review-card">
+              <div class="container-card-header">
+                <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+                <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+                <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+                <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+                <i class="fa-solid fa-star fa-2x" style="color: #ffaa11;"></i>
+              </div>
+              <div class="my-5">
+                <p class="fs-4 fst-italic"> Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <h5 class="container-card-name fw-bold fs-3">Light card title</h5>
+              </div>
+            </div>
+          </div>
+  
+        <div class="d-flex flex-wrap align-items-center justify-content-center bg-blue gap-5 w-100">
+          <div class="gelatine p-4 d-flex flex-column justify-content-between align-items-center">
+            <div class="">
+              <i class="fa-solid fa-users fa-5x" style="color: #ac84f0;"></i>
+            </div>
+            <h4 class="display-3 fw-bold">231</h4>
+            <p class="fs-5">Happy Users</p>
+          </div>
+          <div class="gelatine p-4 d-flex flex-column justify-content-between align-items-center">
+            <div class="">
+              <i class="fa-sharp fa-solid fa-code fa-5x" style="color: #18c389;"></i>
+            </div>
+            <h4 class="display-3 fw-bold">385</h4>
+            <p class="fs-5">Issues Solved</p>
+          </div>
+          <div class="gelatine p-4 d-flex flex-column justify-content-between align-items-center">
+            <div class="">
+              <i class="fa-solid fa-gear fa-5x" style="color: #ff4b63;"></i>
+            </div>
+            <h4 class="display-3 fw-bold">159</h4>
+            <p class="fs-5">Good Reviews</p>
+          </div>
+          <div class="gelatine p-4 d-flex flex-column justify-content-between align-items-center">
+            <div class="">
+              <i class="fa-solid fa-comments fa-5x" style="color: #ffaa11;"></i>
+            </div>
+            <h4 class="display-3 fw-bold">127</h4>
+            <p class="fs-5">Case Studies</p>
+          </div>
+          <div class="gelatine p-4 d-flex flex-column justify-content-between align-items-center">
+            <div class="">
+              <i class="fa-solid fa-rocket fa-5x" style="color: #46b0e5;"></i>
+            </div>
+            <h4 class="display-3 fw-bold">211</h4>
+            <p class="fs-5">Orders Received</p>
+          </div>
+        </div>
+    </section>
+
+
+    <section id="screens">
+      <div class="d-flex flex-column" id="article-details">
+
+        <div class="d-flex justify-content-between">
+
+        <div class="container-white-circle-left-bottom d-flex align-items-center justify-content-end">
+          <img src="../src/assets/figures/decorative-yellow-circle.svg" class="yellow-circle">
+        </div>
+
+<div class="container d-flex justify-content-center align-items-center p-4 my-4">
+        <img src="../src/assets/img/download-iphone.png" alt="Logo" class="container-img-phone hithere mt-5">
+      </div>        
+            <div class="container-white-circle-right-bottom d-flex align-items-center justify-content-center">
+              <div class="container-blue-circle">
+                <img src="../src/assets/figures/decorative-blue-circle.svg" class="blue-circle-bottom">
+              </div>
+            
+          </div>
+</div>
+          <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3 text-center w-100">
+
+            <div class="d-flex flex-column justify-content-center align-items-center text-center gap-3 w-80 w-lg-50">
+
+          <div class="w-100 d-flex justify-content-start">
+            <img src="../src/assets/figures/decorative-green-diamond.svg" alt="green diamond" style="width: 20px" style="height: 20px">
+          </div>
+          <p class="container-paragraph fs-5 fw-semibold p-4">
+            In Bootstrap 3, a jumbotron was introduced as a large, padded box for highlighting special content or information.
+            Now, jumbotrons does not supported by Bootstrap 5 version. We can achieve the same result with an element, special
+            helper classes, and a color class.
+          </p>
+          <div class="mb-5 container-bottom-download">
+            <a href="https://factoriaf5.org/">
+              <button class="btn rounded-pill btn-download-filled bg-danger text-white m-2 bg-gradient" type="button">
+                <i class="fa-brands fa-apple" style="color: #ffffff;"></i> DOWNLOAD
+              </button>
+            </a>
+            <a href="https://factoriaf5.org/">
+              <button class="btn rounded-pill btn-download-filled bg-danger text-white bg-gradient" type="button">
+                <i class="fa-brands fa-google-play" style="color: #ffffff;"></i> DOWNLOAD
+              </button>
+            </a>
+          </div>
+        </div>
+        </div>
+        
+      </div>
+    </section>  
+
+
+  </main>
+
+
+  <footer>
+
+    <div class="container-fluid d-flex flex-column border-top justify-content-center flex-lg-row justify-content-lg-between">
+      <div class="d-flex flex-column flex-lg-row gap-lg-4">
+
+        <div class="d-flex flex-column mt-4 align-items-center align-items-lg-start text-center text-lg-start mt-lg-2 flex-lg-nowrap">
+          <h5 class="text-uppercase fw-bolder mb-4">Contact Info</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <i class="fas fa-map-marker-alt pe-2 bounce"></i>22 innovation Street, CA, US  </li>
+            <li class="mb-2">
+              <i class="fas fa-envelope pe-2 mb-0 bounce"></i>office@syncmobile.com
+            </li>
+            <li >
+              <i class="fas fa-phone pe-2 bounce"></i>+44 376 945 23
+            </li>
+          </ul>
+        </div>
+
+        <div class="d-flex flex-column align-items-center align-items-lg-start text-center mt-lg-2 text-lg-start">
+          <h5 class="text-uppercase mb-4 fw-bolder">Value links</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2">Terms & Conditions</li>
+            <li class="mb-2">Privacy Policy</li>
+            <li class="mb-2">Article Details</li>
+          </ul>
+        </div>
+
+        <div class="d-flex flex-column align-items-center align-items-lg-start text-center mt-lg-2 text-lg-start">
+          <h5 class="text-uppercase mb-4 fw-bolder">Other Apps</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2">Scientific Calculator</li>
+            <li class="mb-2">Advanced Timer</li>
+            <li class="mb-2">Music Store</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="d-flex my-3 gap-2 justify-content-center container-icons-bottom">
+        <a class="btn btn-outline-dark btn-floating bg-body-secondary bounce rounded-circle border-0"
+          href="https://femcoders.factoriaf5.org/" role="button"><i class="fa-brands fa-facebook-f fa-2x"
+            style="color: #ffffff;"></i></a>
+        <a class="btn btn-outline-dark btn-floating bg-body-secondary bounce rounded-circle border-0"
+          href="https://femcoders.factoriaf5.org/" role="button"><i class="fa-brands fa-twitter fa-2x"
+            style="color: #ffffff;"></i></a>
+        <a class="btn btn-outline-dark btn-floating bg-body-secondary bounce rounded-circle border-0"
+          href="https://femcoders.factoriaf5.org/" role="button"><i class="fa-brands fa-pinterest-p fa-2x"
+            style="color: #ffffff;"></i></a>
+        <a class="btn btn-outline-dark btn-floating  bg-body-secondary bounce rounded-circle border-0"
+          href="https://femcoders.factoriaf5.org/" role="button"><i class="fa-brands fa-instagram fa-2x"
+            style="color: #ffffff;"></i></a>
+      </div>
+
+    </div>
+
+    <div class="container d-flex justify-content-center border-top">
+      <p class="mt-4">Copyright © 2020 Copyright: Inovatik - All rights reserved</p>
+    </div>
+  </footer>
+
+
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+
+  <script src="https://kit.fontawesome.com/46cac75c44.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

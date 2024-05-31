@@ -1,0 +1,62 @@
+.description-img-skate,
+.description-container-img-calendar {
+  max-width: 500px;
+  height: auto;
+}
+
+.container-card-header {
+  position: relative;
+}
+
+.container-card-header::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 30%;
+  width: 40%;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.container-icons-bottom {
+  height:50px;
+}
+
+.yellow-circle {
+  width: 30px;
+  height: 30px;
+  margin-right: -1%;
+}
+
+.container-white-circle-left-bottom {
+  background-image: url(../../src/assets/img//decorative-half-white-circle-left.png);
+  width: 90px;
+  height: 430px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container-white-circle-right-bottom {
+  background-image: url(../../src/assets/img//decorative-half-white-circle-right.png);
+  width: 90px;
+  height: 430px;
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+.blue-circle-bottom {
+  width: 40px;
+}
+
+.container-blue-circle{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+

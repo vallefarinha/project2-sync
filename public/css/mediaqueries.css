@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1023px) {
+  .description-img-skate,
+  .description-container-img-calendar {
+    max-width: 300px;
+    height: auto;
+  }
+
+  .container-img-phone {
+    max-width: 300px;
+    height: auto;
+  }
+  .container-figures {
+    margin-top: 25%;
+  }
+  .container-white-circle-left,
+  .container-white-circle-right {
+    margin-top: 2%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container-img-phone {
+    max-width: 150px;
+    height: auto;
+  }
+
+  .blue-circle-bottom {
+    margin-top: 250%;
+    width: 20px;
+  }
+
+  .yellow-circle {
+    width: 20px;
+    margin-right: -8%;
+  }
+}
