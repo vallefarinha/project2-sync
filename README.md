@@ -1,24 +1,30 @@
-﻿## Project-two-two
-Mobile Page Template Overview This project is a one-page template of a mobile website, featuring seamless navigation, animations, and transitions. The template is crafted with responsiveness in mind, incorporating media queries to ensure an optimal user experience across various devices.
+# Project Two - SYNC
 
-## Technologies Used
-HTML: The backbone of the template's structure and content.
+## Description
 
-Sass: Efficiently manage and organize styles with Sass, a powerful and feature-rich CSS preprocessor.
+This project is a mobile app landing page built using HTML, CSS, and Bootstrap 5. It includes various sections such as a header with navigation, description, reviews, screenshots, and a footer with contact information and social links.
 
-Bootstrap: Incorporate Bootstrap to enhance design consistency, responsiveness, and the overall styling of the template.
+## Installation
 
-Media Queries: Ensuring the template looks and functions seamlessly across a range of devices by adjusting styles based on the device characteristics.
+To run this project locally, follow these steps:
 
-## How to Use
-Clone the Repository:
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Open the `index.html` file in your preferred web browser.
 
-bash git clone https://github.com/vallefarinha/femcodersnorte/project-two
+## Dependencies
 
-Navigate to the Project Directory: bash cd project-two Open index.html in a Browser:
+- Bootstrap 5.3.2
+- Node-sass 9.0.0
 
-Open the index.html file in your preferred web browser to experience the template.
+## Usage
 
-Contributing If you'd like to contribute to this project, please follow the standard procedures for pull requests and issue reporting on GitHub.
+- The `compile-sass` script compiles the SCSS files to CSS.
+- Modify the HTML and CSS files to customize the content and styling.
+- Add or remove sections as needed.
 
-Author Gabriela Valle - https://github.com/vallefarinha
+## Credits
+
+- This project uses icons from [Font Awesome](https://fontawesome.com/).
+- Images and logos are sourced from the project's assets.
+
