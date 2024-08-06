@@ -28,3 +28,7 @@ To run this project locally, follow these steps:
 - This project uses icons from [Font Awesome](https://fontawesome.com/).
 - Images and logos are sourced from the project's assets.
 
+## Visit the page
+
+- https://project2-sync.netlify.app/
+
